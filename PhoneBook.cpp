@@ -141,7 +141,7 @@ void PhoneBook::DeleteByName()
         contacts_[num_contacts_].phone[0] = '\0'; */
         num_contacts_ -= 1;
         // TODO: 중간에서 삭제했을 경우 데이터 정리
-        // TODO: num_contacts_ 하나 감소
+        // TODO: num_contacts_ 하나 감소 
 
     }
 }
